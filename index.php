@@ -1,7 +1,7 @@
 <?php
-// koneksi ke database
+
 $conn = mysqli_connect("localhost", "root", "", "ujicoba");
-// ambil data sintesa dari data sintesa
+
 $result = mysqli_query($conn, "SELECT * FROM ujicoba");
 
 ?>
@@ -13,7 +13,7 @@ $result = mysqli_query($conn, "SELECT * FROM ujicoba");
     <title>Halaman admin</title>
 </head>
 <body>
-    <h1>Daftar sintesa</h1>
+    <h1>Latihan</h1>
     <table border="1" cellpadding="10" cellspacing="0">
         <tr>
             <th>No.</th>
